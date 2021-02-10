@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Welcome To Amritsar</string>
+    <string name="TopAttractions">Top Attractions</string>
+    <string name="Restaurants">Restaurants</string>
+    <string name="Events">Events</string>
+    <string name="HistoricalPlaces">Historical Places</string>
+</resources>

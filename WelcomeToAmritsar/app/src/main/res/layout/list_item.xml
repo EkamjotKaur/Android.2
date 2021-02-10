@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/textRelativeLayout"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_toRightOf="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        tools:text="Sri Harmandir Sahib">
+    </TextView>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        tools:text="Open 24 hrs">
+    </TextView>
+    </LinearLayout>
+     <ImageView
+         android:id="@+id/gps"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="10dp"
+         android:layout_width="18dp"
+         android:layout_height="18dp"
+         android:src="@drawable/gps"/>
+</RelativeLayout>

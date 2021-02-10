@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topAttractions"
+        style="@style/ItemStyle"
+        android:text="@string/TopAttractions"
+        android:background="@color/topAttractions"
+      />
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/ItemStyle"
+        android:text="@string/Restaurants"
+        android:background="@color/restaurants"
+        />
+    <TextView
+        android:id="@+id/events"
+        style="@style/ItemStyle"
+        android:text="@string/Events"
+        android:background="@color/events"
+        />
+    <TextView
+        android:background="@color/historical"
+        android:id="@+id/historicalPlaces"
+        style="@style/ItemStyle"
+        android:text="@string/HistoricalPlaces"
+        />
+
+</LinearLayout>
