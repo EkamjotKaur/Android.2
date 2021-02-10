@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+    <string name="school">Delhi Public School</string>
+    <string name="viewReportCards">View Report Cards Classwise</string>
+    <string name="class1">Class 1</string>
+    <string name="class2">Class 2</string>
+    <string name="class3">Class 3</string>
+    <string name="class4">Class 4</string>
+    <string name="class5">Class 5</string>
+    <string name="rollNo_1">Roll No. 1</string>
+    <string name="rollNo_2">Roll No. 2</string>
+    <string name="rollNo_3">Roll No. 3</string>
+    <string name="rollNo_4">Roll No. 4</string>
+    <string name="rollNo_5">Roll No. 5</string>
+    <string name="detail">Detailed Report Sheet</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/list_item"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/roll_no"
+        tools:text="Roll No. 1"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Name"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/english_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="English Grade"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/maths_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Mathematics Grade"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/science_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Science Grade"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/social_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Social Science Grade"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/hindi_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hindi Grade"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/pun_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Punjabi Grade"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

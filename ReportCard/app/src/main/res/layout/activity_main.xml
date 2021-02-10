@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6ffeb"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/school"
+        android:textStyle="bold"
+        android:text="@string/school"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/viewReportCards"
+        android:text="@string/viewReportCards"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/class1"
+        android:text="@string/class1"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/class2"
+        android:text="@string/class2"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/class3"
+        android:text="@string/class3"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/class4"
+        android:text="@string/class4"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/class5"
+        android:text="@string/class5"/>
+</LinearLayout>
+</ScrollView>
